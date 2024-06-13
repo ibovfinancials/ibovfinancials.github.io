@@ -9,7 +9,7 @@ Authentication is required to access real-time data from the Brazilian stock exc
 
 To generate an access token, you need to log in via Google here [IbovFinancials](http://www.ibovfinancials.xyz/login).
 
-To fetch real-time stock price for AZUL4, use the following request, replacing *<TOKEN>* with your generated token:
+To fetch real-time stock price for AZUL4, use the following request, replacing <TOKEN> with your generated token:
 
 ### Use Example
 ```
