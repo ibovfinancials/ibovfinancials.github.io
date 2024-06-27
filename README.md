@@ -55,14 +55,13 @@ The endpoints available in the API are organized into two categories: ibov and y
 
 Endpoints in the ibov category provide real-time data for the Brazilian stock exchange.
 #### Historical Data.
-`GET /api/yahoo/historical/`.
+`GET /api/ibov/historical/`.
 ```
 params = { 
     'symbol' : '<SYMBOL>',
-    'timeframe' : ['5', '10', '15', '30', '60', '1440'] #for minutes
-    'start_date' : 'YYYY-MM-DD'
-    'end_date': 'YYYY-MM-DD'
-    'interval': ['monthly', 'daily']
+    'timeframe' : ['5', '10', '15', '30', '60', '1440'], #for minutes
+    'start_date' : 'YYYY-MM-DD',
+    'end_date': 'YYYY-MM-DD',
 }
 ```
 #### Real-time data on ask, bid, volume, etc.
