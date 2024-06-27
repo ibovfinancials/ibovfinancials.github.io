@@ -38,7 +38,6 @@ http://www.ibovfinancials.xyz/api/ibov/quotes/?symbol=azul4&token=<TOKEN>
     }
 }
 ```
-Each account created has a limit of 200 requests per day. If you need a higher limit, please contact via email at [jeremias.junior@outlook.com.br](jeremias.junior@outlook.com.br).
 
 ## Available Endpoints
 You can make requests to the following endpoint:
