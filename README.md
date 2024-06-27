@@ -18,23 +18,23 @@ http://www.ibovfinancials.xyz/api/ibov/quotes/?symbol=azul4&token=<TOKEN>
 ```
 {
     "symbol": "AZUL4",
-    "current_data": {
-        "volume": 440100,
-        "volume_min": 100,
-        "volume_max": 3357508,
-        "bid": 9.9,
-        "bidhigh": 9.9,
-        "bidlow": 9.09,
-        "ask": 8.5,
-        "askhigh": 9.58,
-        "asklow": 8.5,
-        "last": 9.55,
-        "lasthigh": 9.58,
-        "lastlow": 9.1,
-        "session_open": 9.5,
-        "session_close": 9.55,
-        "session_aw": 9.41,
-        "price_change": 0
+    "data": {
+        "AZUL4": {
+            "volume": 1200000,
+            "bid": 7.3,
+            "bidhigh": 7.55,
+            "bidlow": 7.3,
+            "ask": 7.35,
+            "askhigh": 7.56,
+            "asklow": 7.31,
+            "last": 7.31,
+            "lasthigh": 7.56,
+            "lastlow": 7.3,
+            "session_open": 7.31,
+            "session_close": 7.31,
+            "session_aw": 7.42,
+            "price_change": 0
+        }
     }
 }
 ```
