@@ -7,7 +7,7 @@ IbovFinancials is a free and unique API that provides access to real-time data f
 ### Authentication
 Authentication is required to access real-time data from the Brazilian stock exchange. Authentication must be done using a token, which should be included as a query parameter in each request.
 
-To generate an access token, you need to log in via Google here [IbovFinancials](http://www.ibovfinancials.xyz/login).
+To generate an access token, you need to log in via Google here [IbovFinancials](http://www.ibovfinancials.com/login).
 
 To fetch real-time stock price for AZUL4, use the following request, replacing <TOKEN> with your generated token:
 
